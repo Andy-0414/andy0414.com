@@ -1,0 +1,23 @@
+$main-color: #536dfe;
+$point-color: #f50057;
+$highlight-color: #f9a826;
+$background-color: #3f3d56;
+$deep-background-color: #323145;
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+	font-family: "Roboto";
+}
+:link {
+	color: $main-color;
+}
+:visited {
+	color: #aaaaaa;
+}
+body {
+	background-color: $background-color;
+	color: white;
+}
