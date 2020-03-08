@@ -52,13 +52,12 @@ export default {};
 
 .color-title {
 	font-size: 40px;
-	text-align: center;
 }
 .color-item {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 100%;
+	width: 200px;
 	padding: 20px;
 
 	background-color: $deep-background-color;
