@@ -10,6 +10,13 @@ $deep-background-color: #323145;
 	box-sizing: border-box;
 
 	font-family: "Roboto";
+
+	line-height: 1.4;
+}
+html {
+	font-size: 20px;
+	background-color: $deep-background-color;
+	color: white;
 }
 :link {
 	color: $main-color;
@@ -17,7 +24,31 @@ $deep-background-color: #323145;
 :visited {
 	color: #aaaaaa;
 }
-body {
-	background-color: $background-color;
-	color: white;
+
+h1 {
+	font-size: 2em;
+
+	position: relative;
+}
+h1::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 25px;
+	height: 5px;
+	background-color: $main-color;
+}
+h2 {
+	font-size: 1.5em;
+}
+h3 {
+	font-size: 1.25em;
+}
+h4 {
+	font-size: 1em;
+}
+
+p {
+	font-size: 1em;
 }
