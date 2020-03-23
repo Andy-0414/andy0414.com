@@ -1,7 +1,7 @@
 <template>
 	<section class="main">
 		<Head></Head>
-		<Colors></Colors>
+		<!-- <Colors></Colors> -->
 	</section>
 </template>
 
