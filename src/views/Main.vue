@@ -19,8 +19,12 @@ export default Vue.extend({
 
 <style lang="scss">
 .main {
-	width: 100%;
-	max-width: 1200px;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 	margin: 0 auto;
 	padding: 40px;
 }
