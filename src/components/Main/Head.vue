@@ -1,21 +1,35 @@
 <template>
 	<article class="head">
-		<img src="@/assets/undraw_web_developer_p3e5.svg" class="head__img" />
+		<img src="@/assets/undraw_web_developer_p3e5.svg" class="head__img" alt="profile_image" />
 		<div class="head__content">
 			<h1>Andy0414</h1>
 			<p>Full Stack Web Developer</p>
 			<p class="head__content__icons">
-				<a class="head__content__iconbox" href="mailto:pjh8667@gmail.com" target="_blank">
+				<a
+					class="head__content__iconbox"
+					href="mailto:pjh8667@gmail.com"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<span style="display:none">email</span>
 					<i class="head__content__iconbox__icons mdi mdi-email"></i>
 				</a>
-				<a class="head__content__iconbox" href="https://github.com/Andy-0414" target="_blank">
+				<a
+					class="head__content__iconbox"
+					href="https://github.com/Andy-0414"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<span style="display:none">github</span>
 					<i class="head__content__iconbox__icons mdi mdi-github"></i>
 				</a>
 				<a
 					class="head__content__iconbox"
 					href="https://www.facebook.com/profile.php?id=100006359646561"
 					target="_blank"
+					rel="noreferrer"
 				>
+					<span style="display:none">facebook</span>
 					<i class="head__content__iconbox__icons mdi mdi-facebook"></i>
 				</a>
 			</p>

@@ -1,0 +1,4 @@
+user-agent: *
+allow: /
+
+sitemap: https://andy0414.com/sitemap.xml
